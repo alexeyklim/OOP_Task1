@@ -5,6 +5,7 @@ public class Rectangle extends Figure {
     private int side2;
 
     public Rectangle(int s1, int s2) {
+        //TODO: тут не обязательно использовать слово this
         this.side1 = s1;
         this.side2 = s2;
     }

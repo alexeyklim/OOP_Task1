@@ -6,6 +6,7 @@ public class FigureUtils {
     //Compare Figures square with value
     public static boolean compageFiguresWithNumber(List<Figure> array, double sq) {
         double squareSum = 0;
+        // TODO: тут перебора всех элементов коллеции можно использовать foreach цикл, но можно оставить и так
         for(int i = 0; i < array.size(); i++) {
             squareSum += array.get(i).findSquare();
         }

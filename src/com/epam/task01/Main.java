@@ -36,7 +36,7 @@ public class Main {
 
         //Compare Figures square with number
         FigureUtils.compageFiguresWithNumber(figures, 75.14);
-
+        // TODO: При взгляде на код непонятно что делается с результатом вычисления (он не используется). У тебя вывод в консоль в методе, его можно перенести в Main. Это не ошибка (спорно)
         //Print squares of Figures list
         FigureUtils.printFiguresSquares(figures);
     }
